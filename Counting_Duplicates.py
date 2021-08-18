@@ -1,7 +1,9 @@
 from collections import *
 import numpy as np
 
-
+#got this duplicate_count code from stackoverflow
+#not sure how efficient it is, should probably look into making
+#own version later, hopefully much shorter
 def duplicate_count(text, *number):
 	def convert_to_words(num):
 		l = len(num)
