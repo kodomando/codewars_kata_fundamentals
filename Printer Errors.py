@@ -29,7 +29,7 @@ printer_error(s) => "8/22"
 '''
 
 
-'''my solution at top, very standard'''
+'''my first solution at top, very standard'''
 def printer_error(s):
  	good_letters = [x for x in 'abcdefghijklm']
  	count = len(s)
@@ -42,7 +42,7 @@ return f'{errors}/{count}'
  printer_error('aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz')
 
 
-'''second solution'''
+'''my second solution'''
 def printer_error(s):
     errors = 0
     count = len(s)
@@ -57,14 +57,15 @@ def printer_error(s):
    
 '''kinda of hard to read solution, this one was really cool'''
 def printer_errors(s):
-   #create a list and append it with each results of
+   '''create a list and append it with each results of'''
+  
    (for x in s) if (x doesn't exist in iterations of string 'abcdefghijklm')
 
    '''splits 'input string' to individual character strs and iterates over each
    #compares to the str chrs of 'abcdefghijklm'. if input str char doesn't exist
    in 'abcd..' append temporary list.
 
-Get count of both 'error' characters and total length of str chrs in input string.
+   Get count of both 'error' characters and total length of str chrs in input string.
    use string formatting to display values errors/total'''
 
    return "{}/{}".format(len([x for x in s if x not in 'abcdefghijklm']), len(s))
