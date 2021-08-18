@@ -14,4 +14,4 @@ def is_isogram(string):
     letters = string.lower()
     return len(set(letters)) == len(string)
 
-is_isogram('Dematoglyphics')
+is_isogram('HeliosphereKomodoDragons')
