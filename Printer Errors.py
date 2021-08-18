@@ -11,7 +11,7 @@
 # printer_error('aaaaaaaaaaaaaaaabbbbbbbbbbbbbbbbbbmmmmmmmmmmmmmmmmmmmxyz')
 
 
-
+'''hard to read solution'''
 # def printer_errors(s):
 # 	'''
 # 	create a list and append it with each results of
@@ -27,7 +27,7 @@
 # 	return "{}/{}".format(len([x for x in s if x not in 'abcdefghijklm']), len(s))  #hella readable this one
 
 
-
+'''second solution'''
 def printer_error(s):
     errors = 0
     count = len(s)
