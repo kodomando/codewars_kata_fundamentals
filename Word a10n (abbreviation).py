@@ -24,8 +24,9 @@ def abbreviate(s):
         return (string[0] + str(len(string[1:-1])) + string[-1])
     split = re.split(r'([^a-zA-Z])', s)
     return "".join([abbr(string) if string.isalpha() and len(string) >= 4 else string for string in split])
-    # new = [string for string in split if not
-    # print(stripped)
+
+    '''Without List Comprehension'''
+    # new = []
     # for string in split:
     #     if string.isalnum():
     #         new.append(string[0] + str(len(string[1:-2])) + string[1])
