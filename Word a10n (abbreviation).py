@@ -41,10 +41,11 @@ time_elapsed = end - start
 print(f"Time elapsed: {time_elapsed:8f} second(s)")
 
 """
-    1. Strip non-word characters
-    2. Separate Strings by space
-    3. If string length is greater than 4 run abbreviate fx
-    4. Run the main function
-    5. All non-word characters remain in place,
+    1. Split by non-word characters, used Regex however had to take out
+       decimals as part of the kata. So just a-z and A-Z.
+    2. If string length is greater than 4 run abbreviate fx
+    3. Run the nested function
+    4. All non-word characters remain in place,
        all strings length less than 4 is kept as is.
+    5. join list into one string.
 """
